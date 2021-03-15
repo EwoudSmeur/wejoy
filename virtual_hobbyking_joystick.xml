@@ -2,6 +2,7 @@
 devices = 
    {
       kbd0 = "/dev/input/by-id/usb-413c_Dell_KB216_Wired_Keyboard-event-kbd",  -- keyboard device (try to find a suitable device by listing input devices by typing 'ls /dev/input/by-id/' )
+      --kbd0 = "/dev/input/by-path/platform-i8042-serio-0-event-kbd",
    }
 
 --Virtual devices to create, current limit is maximum 53 (0 to 52) buttons and 19 (0 to 18) axes. Note that not every button or axis is fully tested to work.
